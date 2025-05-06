@@ -14,16 +14,27 @@ Cut 80 % of webhook noise, keep your n8n run‑quota for **real** user message
 **Fix:** Put a 20‑line **Cloudflare Worker** in front:
 
 User ──► WhatsApp Cloud API
+
 │ (raw flood)
+
 ▼
+
 Cloudflare Worker
+
 ├─ handles GET handshake
+
 ├─ drops status + echo events
+
 └─ forwards clean POST JSON
+
 │ (filtered)
+
 ▼
+
 n8n Webhook
+
 ▼
+
 Your automation
 
 
