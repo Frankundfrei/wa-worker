@@ -1,9 +1,3 @@
-Nachgedacht für ein paar Sekunden
-
-
-Here’s a **drop‑in README section** that renders cleanly on GitHub Markdown (incl. Mermaid diagram).
-Copy–paste it as‑is into your `README.md`.
-
 ````markdown
 # n8n × WhatsApp Cloud API — Edge filtering with Cloudflare Workers
 Cut **~80 %** of webhook noise and keep your n8n run‑quota for *real* user messages.
